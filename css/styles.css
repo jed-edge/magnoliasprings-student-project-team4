@@ -31,10 +31,13 @@ body {
   Vivid Tangerine #FF7D00
   Brandy #78290F */
 
-  .navbar {
-    margin-top: 40px;
-    background-color: #15616D;
-    color: #FFECD1
+.navbar {
+  margin-top: 40px;
+}
+
+.navbar, .showcase, .footer {
+  background-color: #15616D;
+  color: #FFECD1
   }
 
 .nav-item {
@@ -42,14 +45,14 @@ body {
 }
 
 .bi-leaf-fill {
-    background-color: #15616D;
-    color: #FF7D00;
-  }
+  background-color: #15616D;
+  color: #FF7D00;
+}
 
 .jim-nightshade-regular {
-    font-family: "Jim Nightshade", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 28px;
-    color: #FFECD1;
+  font-family: "Jim Nightshade", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  color: #FFECD1;
 }
