@@ -21,6 +21,7 @@
 
 body {
   padding-top: 40px; /* Adjust this number to match the height of your banner */
+  background-color: #FFECD1
 }
 /*END OF REQUIRED CSS FOR STUDENT BANNER*/
 
@@ -55,4 +56,20 @@ body {
   font-style: normal;
   font-size: 28px;
   color: #FFECD1;
+}
+
+.card1, .btn2, .card3 {
+  background-color: #78290f;
+  color: #FFECD1;
+  border: 1px solid #15616D;
+}
+
+.btn1, .card2, .btn3 {
+  background-color: #FF7D00;
+  color: #FFECD1;
+  border: 1px solid #15616D;
+}
+
+.text2 {
+  color: #78290f;
 }
