@@ -74,6 +74,10 @@ body {
   color: #78290f;
 }
 
+.text3 {
+  color: #15616D;
+}
+
 .slogan {
   color:#FFECD1;
   font-size: 3.5em;
@@ -83,4 +87,8 @@ body {
   background-color: #15616D;
   opacity: 0.8;
   color: #FFECD1;
+}
+
+.map {
+  width: 90%;
 }
