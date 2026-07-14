@@ -111,3 +111,7 @@ body {
 .map {
   width: 90%;
 }
+
+.title {
+  background-image: linear-gradient(to right, #78290F80, #FF7D0080)
+}
