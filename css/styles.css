@@ -41,7 +41,7 @@ body {
   color: #FF7D00;
   }
 
-.nav-item {
+.nav-link {
   color: #FF7D00;
 }
 
@@ -55,7 +55,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 28px;
-  color: #FFECD1;
+  color: #FF7D00;
 }
 
 .card1, .btn2, .card3, .middleSection {
