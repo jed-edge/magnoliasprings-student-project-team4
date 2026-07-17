@@ -41,8 +41,13 @@ body {
   color: #FFECD1;
   }
 
+<<<<<<< Updated upstream
 .nav-link {
   color: #FF7D00;
+=======
+.nav-item {
+  color: #FFECD1;
+>>>>>>> Stashed changes
 }
 
 .bi-leaf-fill {

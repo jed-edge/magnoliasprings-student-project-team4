@@ -1,0 +1,100 @@
+/*REQUIRED CSS FOR STUDENT BANNER*/
+.student-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffcc00; 
+  color: #1a1a1a; 
+  text-align: center;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  font-size: 14px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 99999; 
+}
+
+.student-banner p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 40px; /* Adjust this number to match the height of your banner */
+  background-color: #FFECD1
+}
+/*END OF REQUIRED CSS FOR STUDENT BANNER*/
+
+/* Color Palette from Coolors.co
+  Ink Black #001524
+  Stormy Teal #15616D
+  Papaya Whip # FFECD1
+  Vivid Tangerine #FF7D00
+  Brandy #78290F */
+
+.navbar {
+  margin-top: 40px;
+}
+
+.navbar, .showcase, .footer {
+  background-color: #15616D;
+  color: #FFECD1;
+  }
+
+.nav-item {
+  color: #FFECD1;
+}
+
+.text-ink-black {
+  color: #001524; /* Ink Black */
+}
+
+.text-stormy-teal {
+  color: #15616D; /* Stormy Teal */
+}
+
+/* Custom Bootstrap Button Variants */
+.btn-tangerine {
+  background-color: #FF7D00; /* Vivid Tangerine */
+  color: #001524;
+  font-weight: 600;
+}
+.btn-tangerine:hover {
+  background-color: #e06e00;
+  color: #001524;
+}
+
+.btn-teal {
+  background-color: #15616D; /* Stormy Teal */
+  color: #ffffff;
+  font-weight: 600;
+}
+.btn-teal:hover {
+  background-color: #0f4852;
+  color: #ffffff;
+}
+
+.btn-brandy {
+  background-color: #78290F; /* Brandy */
+  font-weight: 600;
+}
+.btn-brandy:hover {
+  background-color: #5c1f0b;
+}
+
+/* Image & Card Fixes */
+.performer-img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.performer-card {
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #FFECD1;
+}
+
+.performer-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 21, 36, 0.15) !important;
+}
