@@ -21,5 +21,130 @@
 
 body {
   padding-top: 40px; /* Adjust this number to match the height of your banner */
+  background-color: #FFECD1
 }
 /*END OF REQUIRED CSS FOR STUDENT BANNER*/
+
+/* Color Palette from Coolors.co
+  Ink Black #001524
+  Stormy Teal #15616D
+  Papaya Whip # FFECD1
+  Vivid Tangerine #FF7D00
+  Brandy #78290F */
+
+.navbar {
+  margin-top: 40px;
+}
+
+.navbar, .showcase, .footer {
+  background-color: #15616D;
+  color: #FFECD1;
+  }
+
+.nav-link {
+  color: #FF7D00;
+}
+
+  .nav-item {
+  color: #FFECD1;
+}
+
+.bi-leaf-fill {
+  background-color: #15616D;
+  color: #FF7D00;
+}
+
+.jim-nightshade-regular {
+  font-family: "Jim Nightshade", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  color: #FF7D00;
+}
+
+.card1, .btn2, .card3, .middleSection {
+  background-color: #78290f;
+  color: #FFECD1;
+  border: 1px solid #15616D;
+}
+
+.btn1, .card2, .btn3 {
+  background-color: #FF7D00;
+  color: #FFECD1;
+  border: 1px solid #15616D;
+}
+
+.marshal {
+  background-color: #15616D;
+  color:#FFECD1;
+}
+
+.vendor {
+  background-color: #FF7D00;
+  color: #78290F;
+}
+
+.text1 {
+  color: #FFECD1;
+}
+
+.text2 {
+  color: #78290f;
+}
+
+.text3 {
+  color: #15616D;
+}
+
+.text4 {
+  color: #78290F;
+  background-color: #FF7D0080;
+}
+
+.text5 {
+  color: #001524;
+}
+
+.slogan {
+  color:#FFECD1;
+  font-size: 3.5em;
+}
+
+.carouselCaption {
+  background-color: #15616D;
+  opacity: 0.8;
+  color: #FFECD1;
+}
+
+.map {
+  width: 90%;
+}
+
+.title {
+  background-image: linear-gradient(to right, #78290F80, #FF7D00);
+}
+
+.titletext {
+  text-transform: uppercase;
+  -webkit-text-stroke: 3px #78290F60;
+}
+
+.faq1 {
+  background-color: #78290F;
+  color: #FFECD1;
+}
+
+.generalQ1 {
+  background-color: #78290FCC;
+  color: #FFECD1;
+}
+
+.generalQ2 {
+  background-color: #FF7D00CC;
+  color:#001524;
+}
+
+.faq2 {
+  background-color: #FF7D00;
+  color: #001524;
+}
