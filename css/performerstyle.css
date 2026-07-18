@@ -45,6 +45,25 @@ body {
   color: #FFECD1;
 }
 
+.nav-link {
+  opacity: 1;
+  color: #FFECD1 !important;
+}
+
+.bi-leaf-fill {
+  background-color: #15616D;
+  color: #FF7D00;
+}
+
+.jim-nightshade-regular {
+  font-family: "Jim Nightshade", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  color: #FFECD1;
+  text-shadow: 1px 1px 2px #001524, -1px -1px -2px #001524;
+}
+
 .text-ink-black {
   color: #001524; /* Ink Black */
 }
