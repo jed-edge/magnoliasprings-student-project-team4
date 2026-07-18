@@ -55,19 +55,18 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
+                        <a href="index.html" class="nav-link"><i class="bi bi-house-door-fill mx-1"></i>Home</a>
+                    <li class="nav-item">
                         <a href="#events" class="nav-link">Event Schedule</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#participants" class="nav-link">Who's Participating</a>
+                        <a href="who's-participating.html" class="nav-link">Who's Participating</a>
                     </li>
                     <li class="nav-item">
                         <a href="faqs.html" class="nav-link">Questions</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#performers" class="nav-link">Who's Performing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="vendor.html" class="nav-link">Vendor Sign-Up</a>
+                        <a href="performers.html" class="nav-link">Who's Performing</a>
                     </li>
                 </ul>
             </div>
@@ -97,7 +96,7 @@
 
     <div class="container mt-3 border">
         <h1 class="bg-dark text-light text-center py-2"><i class="bi bi-leaf h1 text-warning mx-1"></i>Vendor Registration Form</h1>
-        <form action="/action_page.php">
+        <form>
             <div class="container border p-5 text-center">
                 <p class="h3"><i>Please complete all sections of this form. Applications must be submitted by August
                     31st. You will be notified of your application status via email by September 15th.</i>
@@ -134,6 +133,7 @@
                 <label for="website">Website or Social Media Handle:</label>
                 <input type="text" class="form-control" id="website" placeholder="Enter website or social media handle" name="website">
             </div>
+
             <div class="container text-sm-start bg-dark text-light p-2 my-4">
                 <h2>2. Vendor Category</h2>
             </div>
@@ -167,10 +167,121 @@
             <div class="mb-3 mt-3 p-10">
                 <label for="items"><b>Detailed Description: </b>Please list all items you intend to sell. (Only items listed here
                 and approved may be sold at your booth).</label>
-                <textarea class="form-control" rows="4" id="items" placeholder="Enter items" name="items"></textarea>
-            </div>                        
-            <hr>
-            <button type="submit" class="btn btn-dark">Submit</button>
+                <textarea class="form-control" rows="4" id="items" placeholder="Enter items" name="items"></textarea>                   
+            </div>
+            <div class="mb-3 mt-3 p-10">
+                <label for="pics"><b>Photos: </b>Please attach 3-5 high-resolution photos of your products and/or previous booth
+                setup. <i>Filenames should include your Business Name (e.g., Smith_Crafts_1.jpg)</i></label>
+                <textarea class="form-control" rows="3" id="pics" placeholder="Enter pictures and or filenames" name="pics"></textarea>                   
+            </div>
+            <div class="container text-sm-start bg-dark text-light p-2 my-4">
+                <h2>4. Booth Requirements & Fees</h2>
+            </div>
+            <div class="container lead p-2"><i>Standard spaces are 10' by 10' and do not include tables, chair, tents. or utilities.</i><br></div>
+            <div class="container mt-3">        
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Space Type</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something">
+                                    <label class="form-check-label" for="check1"><b>Standard Arts & Crafts Booth</b><br>(10' x 10')</label>
+                                </div>
+                            </td>
+                            <td class="text-center lead">$150</td>
+                            <td>
+                                <input type="number" class="form-control" id="qty1" placeholder="" name="qty1">
+                            </td>
+                            <td>
+                                <input type="number" class="form-control" id="qty2" placeholder="" name="qty2">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something">
+                                    <label class="form-check-label" for="check2"><b>Food Truck / Hot Food Vendor</b><br>(10' x 20')</label>
+                                </div>
+                            </td>
+                            <td class="text-center lead">$300</td>
+                            <td>
+                                <input type="number" class="form-control" id="qty3" placeholder="" name="qty3">
+                            </td>
+                            <td>
+                                <input type="number" class="form-control" id="qty4" placeholder="" name="qty4">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="check3" name="option3" value="something">
+                                    <label class="form-check-label" for="check3"><b>Non-profit Booth</b><br>(10' x 10')</label>
+                                </div>
+                            </td>
+                            <td class="text-center lead">$50</td>
+                            <td>
+                                <input type="number" class="form-control" id="qty5" placeholder="" name="qty5">
+                            </td>
+                            <td>
+                                <input type="number" class="form-control" id="qty6" placeholder="" name="qty6">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="check4" name="option4" value="something">
+                                    <label class="form-check-label" for="check4"><b>Optional 110v/20amp Electrical Hookup</b><br>Limited Availability</label>
+                                </div>
+                            </td>
+                            <td class="text-center lead">$50</td>
+                            <td>
+                                <input type="number" class="form-control" id="qty7" placeholder="" name="qty7">
+                            </td>
+                            <td>
+                                <input type="number" class="form-control" id="qty8" placeholder="" name="qty8">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="check5" name="option5" value="something">
+                                    <label class="form-check-label" for="check5"><b>Non-Refundable Application Fee</b><br>Required for all applicants</label>
+                                </div>
+                            </td>
+                            <td class="text-center lead">$25</td>
+                            <td class="text-center lead">$25</td>
+                            <td class="text-center lead">$25</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td class="text-center lead"><b>Grand Total:</b></td>
+                            <td>
+                                <input type="number" class="form-control" id="qty9" placeholder="" name="qty9">                               
+                            </td>
+                        </tr>                                                
+                    </tbody>
+                </table>
+            </div>                                        
+            <div class="container text-sm-start bg-dark text-light p-2 my-4">
+                <h2>5. Acknowledgement and Submission</h2>
+            </div>
+            <div class="container lead p-2"><b>Terms & Conditions: </b><i>With submission, I agree to abide by all rules and regulations set forth
+                by the Magnolia Springs Autumn Jubilee committee. I understand that this is a rain-or-shine event and booth fees are non-refundable 
+                after acceptance. I agree to assume full responsibility for my booth space, merchandise, and staff, and will not hold the town of 
+                Magnolia Springs liable for any loss, damage, or injury.
+            </i><br></div>
+            <div class="container mb-3 p-3">
+                <button type="submit" class="btn btn-lg btn-dark" style="float: right">Submit</button>
+            </div>
         </form>
     </div>
 

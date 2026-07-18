@@ -41,7 +41,11 @@ body {
   color: #FFECD1;
   }
 
-.nav-item {
+.nav-link {
+  color: #FF7D00;
+}
+
+  .nav-item {
   color: #FFECD1;
 }
 
@@ -117,12 +121,12 @@ body {
 }
 
 .title {
-  background-image: linear-gradient(to right, #78290F80, #FF7D00);
+  background-color: #FF7D00;
 }
 
 .titletext {
   text-transform: uppercase;
-  -webkit-text-stroke: 3px #78290F60;
+  color: #001524;
 }
 
 .faq1 {
